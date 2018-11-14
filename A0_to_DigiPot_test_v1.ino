@@ -9,10 +9,8 @@ void setup() {
 
   SPI.begin();
   SPI.setBitOrder(MSBFIRST); // From Data Sheet
-
   pinMode(csPin,OUTPUT);
   digitalWrite(csPin, HIGH);
- 
   Serial.begin(9600);
   Serial.println(number); // start somewhere
 }
@@ -28,7 +26,7 @@ void loop() {
     delay(100);
     }
 
-    void digitalPotWrite(int address, int value) {
+void digitalPotWrite(int address, int value) {
     digitalWrite(csPin, LOW); //select slave
     byte command = 0xB0; //0xB0 = 10110000 
     command += address; 
