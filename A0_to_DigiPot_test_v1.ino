@@ -6,7 +6,6 @@ int mapped_A0_input;
 int number = 0; // can be used in switch case of final code
 
 void setup() {
-
   SPI.begin();
   SPI.setBitOrder(MSBFIRST); // From Data Sheet
   pinMode(csPin,OUTPUT);
