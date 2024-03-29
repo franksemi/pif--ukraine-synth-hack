@@ -1,4 +1,4 @@
-# pif-s̶o̶v̶i̶e̶t̶-ukraine-synth-hack
+# pif- ̶s̶o̶v̶i̶e̶t̶-ukraine-synth-hack
 <br>
 <br>
 Notes.
